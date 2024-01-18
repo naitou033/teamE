@@ -2,6 +2,7 @@ header{
     background-color: rgb(255, 255, 255);
     font-family: 'Kaisei Decol', serif;
     text-align: center;
+    margin-top: 0;
 }
 .title{
     font-size: 70px;
@@ -106,4 +107,59 @@ header{
   #drawer_input:checked ~ .nav_content {
     left: 0;/* メニューを画面に入れる */
   }
- 
+  .carousel-inner img{
+    margin: 0 auto;
+    width: 900px;
+    height: 570px;
+  }
+
+  .container{
+    width:320px;
+    height: 320px;
+    position: relative;
+    text-align: center;
+  }
+  .container img{
+    width:320px;
+    height: 320px;
+  }
+  p{
+    position: absolute;
+    top:0;
+    left: 80px;;
+    bottom: 300px;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    padding:0;
+    margin:0;
+    font-family: 'Kaisei Decol', serif;
+  }
+.top{
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+}
+#right{
+  margin-right: 0;
+}
+#left{
+  margin-left: 0;
+}
+.back{
+  background-image: url(img/rm209-ning-06-a\ \(2\).jpg);
+  padding: 0;
+}
+.black{
+  color: black;
+}
+footer{
+  margin-top: 80px;
+  background-color: gray;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Kaisei Decol', serif;
+}
