@@ -121,8 +121,7 @@ header{
     background-color: coral;
     width: 500px;
     height: 300px;
-    margin: 35px;
-    margin-bottom: 80px;
+    margin: 35px 35px 110px 0;
   }
 
   .letter h2 {
@@ -137,15 +136,42 @@ header{
   img {
     width: 500px;
     height: 300px;
-    margin: 35px;
-    margin-bottom: 80px;
+    margin: 35px 0 110px 35px;
   }
 
   .oll {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .of {
     background-color: khaki;
+    padding: 0;
   }
+  
+  .letter1{
+    background-color: coral;
+    width: 500px;
+    height: 300px;
+    margin: 35px 0 110px 35px;
+  }
+
+  
+  .letter1 h2 {
+    font-size: 40px;
+  }
+
+  .letter1 p {
+    margin: 10px 30px 10px 70px;
+    font-size: 20px;
+  }
+
+  
+  .img1{
+    width: 500px;
+    height: 300px;
+    margin: 35px 35px 110px 0;
+  }
+  
+
