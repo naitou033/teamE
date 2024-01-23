@@ -125,7 +125,7 @@ table{
     background-color: #fff;
 }
 table td,th{
-  border: 5px solid #333;
+  border: 0.5px solid #333;
 }
 td{
   text-align: center;
