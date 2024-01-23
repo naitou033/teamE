@@ -19,14 +19,18 @@ header{
   padding: 0 20px;
   background: #fff;
 }
+
 .logo {
   font-size: 24px;
 }
+
 /* ここから下がハンバーガーメニューに関するCSS */
+
 /* チェックボックスを非表示にする */
 .drawer_hidden {
   display: none;
 }
+
 /* ハンバーガーアイコンの設置スペース */
 .drawer_open {
   display: flex;
@@ -39,6 +43,7 @@ header{
   z-index: 100;/* 重なり順を一番上にする */
   cursor: pointer;
 }
+
 /* ハンバーガーメニューのアイコン */
 .drawer_open span,
 .drawer_open span:before,
@@ -52,27 +57,33 @@ header{
   transition: 0.5s;
   position: absolute;
 }
+
 /* 三本線の一番上の棒の位置調整 */
 .drawer_open span:before {
   bottom: 8px;
 }
+
 /* 三本線の一番下の棒の位置調整 */
 .drawer_open span:after {
   top: 8px;
 }
+
 /* アイコンがクリックされたら真ん中の線を透明にする */
 #drawer_input:checked ~ .drawer_open span {
   background: rgba(255, 255, 255, 0);
 }
+
 /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
 #drawer_input:checked ~ .drawer_open span::before {
   bottom: 0;
   transform: rotate(45deg);
 }
+
 #drawer_input:checked ~ .drawer_open span::after {
   top: 0;
   transform: rotate(-45deg);
 }
+
 /* メニューのデザイン*/
 .nav_content {
   width: 100%;
@@ -84,48 +95,81 @@ header{
   background: #fff;
   transition: .5s;
 }
+
 /* メニュー黒ポチを消す */
 .nav_list {
   list-style: none;
   font-size: 50px;
 }
+
 /* アイコンがクリックされたらメニューを表示 */
 #drawer_input:checked ~ .nav_content {
   left: 0;/* メニューを画面に入れる */
 }
+
 main {
   font-family: 'Kaisei Decol', serif;
 }
+
 .sub2 {
   font-size: 60px;
   margin: 80px 0 50px 0;
   text-align: center;
 }
+
 .letter {
-  background-color: rgb(210, 177, 77);
+  background-color: burlywood;
   width: 500px;
   height: 300px;
-  margin: 35px;
-  margin-bottom: 80px;
+  margin: 35px 35px 110px 0;
 }
+
 .letter h2 {
   font-size: 40px;
 }
+
 .letter p {
   margin: 10px 30px 10px 70px;
   font-size: 20px;
 }
+
 img {
   width: 500px;
   height: 300px;
-  margin: 35px;
-  margin-bottom: 80px;
+  margin: 35px 0 110px 35px;
 }
+
 .oll {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .of {
-  background-color: rgb(130, 92, 20);
+  background-color: chocolate;
   padding: 0;
+}
+
+.letter1{
+  background-color: burlywood;
+  width: 500px;
+  height: 300px;
+  margin: 35px 0 110px 35px;
+}
+
+
+.letter1 h2 {
+  font-size: 40px;
+}
+
+.letter1 p {
+  margin: 10px 30px 10px 70px;
+  font-size: 20px;
+}
+
+
+.img1{
+  width: 500px;
+  height: 300px;
+  margin: 35px 35px 110px 0;
 }
