@@ -160,9 +160,14 @@ p{
 h1{
   text-align: center;
 }
+.back{
+  padding: 0;
+}
+
 .sub2 {
   font-size: 60px;
   margin: 80px 0 50px 0;
   text-align: center;
 }
+
 
