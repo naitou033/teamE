@@ -145,11 +145,6 @@ img {
   justify-content: center;
 }
 
-.of{
-  background-image: url(../img/rm209-ning-06-a\ \(2\).jpg);
-  padding: 0;
-}
-
 .letter1{
   background-color: burlywood;
   width: 500px;
@@ -172,4 +167,7 @@ img {
   width: 500px;
   height: 300px;
   margin: 35px 35px 110px 0;
+}
+.of{
+  background-color: darkgoldenrod;
 }
