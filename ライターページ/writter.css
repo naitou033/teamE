@@ -129,6 +129,7 @@ header{
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -148,6 +149,17 @@ header{
 .ii{
   background-color: #fff;
   margin: 20px 20px;
+}
+
+.ii1 img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.ii1{
+  background-color: #fff;
+  margin: 20px 464px 20px 20px;
 }
 p{
   text-align: center;
@@ -169,6 +181,14 @@ h1{
   font-size: 60px;
   margin: 80px 0 50px 0;
   text-align: center;
+}
+
+footer{
+  margin-top: 80px;
+  background-color: gray;
+  text-align: center;
+  font-size: 31px;
+  font-family: 'Kaisei Decol', serif;
 }
 
 
