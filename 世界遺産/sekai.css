@@ -170,3 +170,11 @@ img {
   background-color: darkgoldenrod;
   padding: 0;
 }
+
+footer{
+  margin-top: 80px;
+  background-color: gray;
+  text-align: center;
+  font-size: 31px;
+  font-family: 'Kaisei Decol', serif;
+}
