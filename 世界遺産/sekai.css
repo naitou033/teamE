@@ -19,11 +19,9 @@ header{
   padding: 0 20px;
   background: #fff;
 }
-
 .logo {
   font-size: 24px;
 }
-
 /* ここから下がハンバーガーメニューに関するCSS */
 
 /* チェックボックスを非表示にする */
@@ -170,4 +168,5 @@ img {
 }
 .of{
   background-color: darkgoldenrod;
+  padding: 0;
 }
