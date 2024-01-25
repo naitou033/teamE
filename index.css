@@ -171,3 +171,6 @@ footer{
 #left{
   margin: 0 0;
 }
+.container img:hover{
+  opacity: 0.5;
+}
