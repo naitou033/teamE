@@ -124,8 +124,9 @@ header{
     flex-wrap: wrap;
     justify-content: center;
   }
-  .of {
-    background-color: rgb(149, 241, 225);
+
+  .of{
+    background-image: url(../img/rm209-ning-06-a\ \(2\).jpg);
     padding: 0;
   }
   .letter1{
